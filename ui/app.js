@@ -4,8 +4,10 @@ import ContactFormManager from "./contact_form";
 
 class Application {
     constructor() {
+        this.baseURL = `${document.location.protocol}//${document.location.host}`;
+
         this.http = axios.create({
-            baseURL: "http://vladimir-ibazeta.me/",
+            baseURL: this.baseURL,
             timeout: 5000,
             responseType: "json"
         });
