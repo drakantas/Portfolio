@@ -126,6 +126,8 @@ func JSONResponse(w http.ResponseWriter, content interface{}, statusCode int) {
 	}
 
 	w.Header().Set("Content-Type", "application/json")
+	w.Header().Set("Access-Control-Allow-Origin", "*")
+	w.Header().Set("Access-Control-Allow-Methods", "GET, POST")
 	w.WriteHeader(statusCode)
 	w.Write(resp)
 }
