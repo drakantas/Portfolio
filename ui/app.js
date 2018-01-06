@@ -5,7 +5,7 @@ import ContactFormManager from "./contact_form";
 class Application {
     constructor() {
         this.http = axios.create({
-            baseURL: "http://127.0.0.1/",
+            baseURL: "http://vladimir-ibazeta.me/",
             timeout: 5000,
             responseType: "json"
         });
