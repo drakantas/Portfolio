@@ -27,7 +27,7 @@ This is what it should look like, in `Email` and `Password` you have to place yo
 
 ## To do, eventually, hopefully, maybe in a good day
 
-[ ] Localization for international users. (English).
-[ ] Endpoint to read the locally stored emails. (`/storage.json`)
-[ ] Make site cuter and write a few bits more about me.
-[ ] Works and about me sections.
+- [ ] Localization for international users. (English).
+- [ ] Endpoint to read the locally stored emails. (`/storage.json`)
+- [ ] Make site cuter and write a few bits more about me.
+- [ ] Works and about me sections.
