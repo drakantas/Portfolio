@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <title>Vladimir Ibazeta</title>
+        <link rel="stylesheet" type="text/css" href="./static/css/app.bundle.css" />
+    </head>
+    <body>
+        <div class="main-wrapper">
+            <div class="presentation">
+                <h1 class="me">Vladimir Ibazeta</h1><br />
+                <span class="short-desc">Escribo código para convertir ideas en productos</span>
+            </div>
+            <div class="about-me-card">
+                Tengo 20 años, soy estudiante de Ingeniería de Software, empecé hace 9 años cuando jugaba a World of Warcraft. Tenía un foro para mi hermandad.<br />
+                Hoy en día escribo código para servidores, aunque también soy proeficiente en el desarrollo frontend web.<br />
+                Si estás interesado, puedes leer mi código en <a href="https://github.com/drakantas">Github</a>.
+            </div>
+            <div class="get-in-touch">
+                <a href="/mail-me" class="btn mail-me" id="mail-me">Escribeme</a>
+            </div>
+        </div>
+        <div id="darkener" class="hide">
+            <div class="centering-layer-wrapper">
+                <div class="centering-layer">
+                    <div id="contact-form-wrapper" class="hide">
+                        <h1><!-- Write email --> Redactar email
+                            <div class="h-close" id="close-modal">
+                                <svg width="20" height="20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="1" y1="20" x2="20" y2="1" />
+                                    <line x1="1" y1="1" x2="20" y2="20" />
+                                </svg>
+                            </div>
+                        </h1>
+                        <div class="content">
+                            <div class="alert hide" id="contact-alert"></div>
+                            <form action="/write-email" id="contact-form" method="post">
+                                <div class="input-group">
+                                    <!-- <label for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" placeholder="Subject..." /> -->
+                                    <label for="subject">Asunto</label>
+                                    <input type="text" id="subject" name="subject" placeholder="Asunto..." />
+                                </div>
+                                <div class="input-group">
+                                    <!-- <label for="fullname">Full name</label>
+                                    <input type="text" id="fullname" name="fullname" placeholder="Full name..." /> -->
+                                    <label for="fullname">Nombres completos</label>
+                                    <input type="text" id="fullname" name="fullname" placeholder="Nombres completos..." />
+                                </div>
+                                <div class="input-group">
+                                    <!-- <label for="email">Email</label>
+                                    <input type="text" id="email" name="email" placeholder="Email..." /> -->
+                                    <label for="email">Correo electrónico</label>
+                                    <input type="text" id="email" name="email" placeholder="Correo electrónico..." />
+                                </div>
+                                <div class="input-group">
+                                    <!-- <label for="business">Business name</label>
+                                    <input type="text" id="business" name="business" placeholder="Business name..." /> -->
+                                    <label for="business">Empresa</label>
+                                    <input type="text" id="business" name="business" placeholder="Empresa..." />
+                                </div>
+                                <div class="input-group has-textarea">
+                                    <!-- <label for="message">Message</label>
+                                    <textarea id="message" name="body" rows="7" placeholder="Message..."></textarea> -->
+                                    <label for="message">Mensaje</label>
+                                    <textarea id="message" name="body" rows="7" placeholder="Mensaje..."></textarea>
+                                </div>
+                                <div class="input-group has-textarea">
+                                    <!-- <label for="additional_details">Additional details</label>
+                                    <textarea id="additional_details" name="details" rows="4" placeholder="Additional details..."></textarea> -->
+                                    <label for="additional_details">Detalles adicionales</label>
+                                    <textarea id="additional_details" name="details" rows="4" placeholder="Detalles adicionales..."></textarea>
+                                </div>
+                                <div class="submit-email-wrapper">
+                                    <!-- <button class="btn submit-email" id="submit-form" type="submit">Send</button> -->
+                                    <button class="btn submit-email" id="submit-form" type="submit">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./static/js/app.bundle.js"></script>
+    </body>
+</html>

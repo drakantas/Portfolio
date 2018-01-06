@@ -1,0 +1,5 @@
+/config/app.json
+/node_modules
+/logs
+/storage.json
+*-lock.json
